@@ -1,0 +1,273 @@
+.toro {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+  
+  h1 {
+    color: red;
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 0;
+    text-shadow: 8px 8px 10px rgb(168, 15, 15);
+  }
+  h1:hover {
+    font-size: 11vw;
+    transition: all 1s;
+    cursor: pointer;
+  }
+
+
+.toro-inferior {
+  top: 23%;
+  left: 12%;
+  background: black;
+  width: 53%;
+  height: 45%;
+  border-radius: 70% 70% 100% 100%;
+  border: solid 5px white;
+  z-index: -1;
+}
+
+.cuerno-izquierdo {
+  top: -49%;
+  left: 15%;
+  background: gray;
+  width: 25%;
+  height: 60%;
+  border-radius: 30% 30% 600% 30%;
+  transform: rotate(115deg);
+  border: solid 3px black;
+}
+
+.cuerno-derecho {
+  top: -50%;
+  left: 100%;
+  background: gray;
+  width: 25%;
+  height: 60%;
+  border-radius: 30% 30% 30% 600%;
+  transform: rotate(-130deg);
+  border: solid 3px black;
+}
+
+
+.trompa {
+  top: 45%;
+  left: 40%;
+  background: red;
+  width: 60%;
+  height: 70%;
+  border-radius: 70% 60% 40% 40%;
+  border: solid 3px black;
+  transform: rotate(-15deg);
+  z-index: 1;
+}
+
+.cuello {
+  top: 16%;
+  left: -15%;
+  background: red;
+  width: 95%;
+  height: 100%;
+  border-radius: 120% 120% 100% 100%;
+  z-index: -1;
+}
+
+
+.toro-cabeza {
+  top: 12%;
+  left: 25%;
+  background: red;
+  width: 50%;
+  height: 45%;
+  border-radius: 70% 70% 100% 100%;
+  border: solid 3px black;
+}
+
+.ojo-derecho {
+  top: 30%;
+  left: 70%;
+  background: white;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+  border: black 3px solid;
+  z-index: 2;
+}
+
+.ojo-izquierdo {
+  top: 30%;
+  left: 28%;
+  background: white;
+  width: 35%;
+  height:35%;
+  border-radius: 50%;
+  border: black 3px solid;
+  z-index: 2;
+}
+
+.reflejo-ojo-derecho {
+  top: 35%;
+  left: 53%;
+  background: black;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+
+.reflejo-ojo-izquierdo {
+  top: 28%;
+  left: 25%;
+  background: black;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+
+.boca {
+  top: 75%;
+  left: 15%;
+  background: white;
+  width: 35%;
+  height: 15%;
+  border-radius: 50%;
+  transform: rotate(20deg);
+  border: solid 3px black;
+}
+
+
+
+.nariz-izquierda {
+  top: 100%;
+  left: 60%;
+  background: black;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.nariz-derecha {
+  top: 95%;
+  left: 87%;
+  background: black;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.estrella1 {
+  color: yellow;
+  font-size: 20px;
+  top: 20%;
+  left: 2%;
+  z-index: 200;
+}
+.estrella2 {
+  color: yellow;
+  font-size: 20px;
+  top: 40%;
+  left: 1%;
+  z-index: 200;
+}
+.estrella3 {
+  color: yellow;
+  font-size: 20px;
+  top: 60%;
+  left: 5%;
+  z-index: 200;
+}
+.estrella4 {
+  color: yellow;
+  font-size: 20px;
+  top: 80%;
+  left: 20%;
+  z-index: 200;
+}
+.estrella5{
+  color: yellow;
+  font-size: 20px;
+  top: 88%;
+  left: 40%;
+  z-index: 200;
+}
+
+.ceja-derecha {
+  font-weight: bold;
+  top: 11%;
+  left: 83%;
+  font-size: 33px;
+  transform: rotate(-90deg);
+  z-index: 100;
+}
+.ceja-izquierda {
+  font-size: 38px;
+  top: 11%;
+  left: 39%;
+  transform: rotate(-90deg);
+  z-index: 100;
+}
+
+.ojera-derecha {
+  top: 53%;
+  left: 75%;
+  font-size: 33px;
+  transform: rotate(140deg);
+  z-index: 100;
+}
+.ojera-izquierda {
+  font-size: 35px;
+  top: 47%;
+  left: 58%;
+  transform: rotate(40deg);
+  z-index: 100;
+}
+
+.muezca-boca {
+  font-weight: bold;
+  font-size: 25px;
+  top: 65%;
+  left: 12%;
+  transform: rotate(210deg);
+  z-index: 100;
+}
+
+.diente {
+  font-weight: bold;
+  font-size: 43px;
+  top: 62%;
+  left: 24%;
+  transform: rotate(-70deg);
+  z-index: 100;
+}
+
+.dientes1 {
+  font-weight: bold;
+  font-size: 25px;
+  top: 67%;
+  left: 26%;
+  transform: rotate(38deg);
+  z-index: 100;
+}
+.dientes2 {
+  font-weight: bold;
+  font-size: 25px;
+  top: 72%;
+  left: 36%;
+  transform: rotate(38deg);
+  z-index: 100;
+}
+
+
+body {
+  background:green;
+}
+
+.toro * {
+  position: absolute;
+}
